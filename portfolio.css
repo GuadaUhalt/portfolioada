@@ -352,8 +352,12 @@ a {
   display: flex;
   justify-content: space-around;
   min-height: 80vh;
-  text-align:center ;
   padding: 80px;
+}
+
+.container-contact{
+  padding: 10px;
+  margin: 10px;
 }
 
 .part5-contact h2 {
