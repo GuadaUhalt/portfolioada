@@ -85,8 +85,8 @@ a {
 #world {
   border-radius: 250px;
   padding: 5px;
-  height: 400px;
-  width: 400px;
+  height: 25em;
+  width: 25em;
   background-color: rgb(238, 252, 246);
 }
 
@@ -457,7 +457,7 @@ input:hover, textarea:hover{
 /*FOOTER*/
 
 footer {
-  padding: 70px;
+  padding: 50px;
   background-image: url(imagenes/verde.jpg);
   background-size: cover;
   background-position: center;
@@ -465,26 +465,15 @@ footer {
   box-shadow: -20px 0px 19px -11px #d7fcfd inset;
   -webkit-box-shadow: -20px 0px 19px -11px #d7fcfd inset;
   -moz-box-shadow: -20px 0px 19px -11px #d7fcfd inset;
-  z-index: 4;
-}
-
-.footer-nav {
-  display: flex;
-  justify-content: center;
-  letter-spacing: 10pt;
-}
-
-.footer-nav li {
-  padding: 20px;
-  margin: 10px;
-  font-size: 15px;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
+  }
 
 .part6-footer {
   display: flex;
   justify-content: center;
+}
+
+.part6-footer li{
+  margin: 15px;
 }
 
 .footer-redes {
@@ -498,7 +487,7 @@ footer {
   margin: 10px;
   color: #ebaa20;
   flex-direction: column;
-}
+ }
 
 .footer-frase {
   display: flex;
@@ -507,26 +496,196 @@ footer {
   font-weight: none;
 }
 
-/*RESPONSIVE DESIGN TABLET*/
 
-@media screen and (min-width: 481px) and (max-width: 880px) {
-  .part1-presentation {
+/*RESPONSIVE DESIGN TABLET*/
+@media (min-width: 480px) and (max-width: 880px) {
+   .part1-presentation {
+    display: flex;
     flex-direction: column;
+    width: 100%;
+    padding-bottom: 50px; 
+    padding-top: 80px; 
+    }
+
+
+.part1{
+  width: 100%;
+  margin-right: 50px;
+  } 
+
+  .part1 h2 {
+    font-size: 30px;
   }
 
-  
+  .part1 h1 {
+    font-size: 50px;
+  }
+
+.imagepart1{
+  margin-left: 100px;
+  }
+
+#world{
+  width: 300px;
+  height: 300px; 
+ }
+
+.content-contact{
+  flex-direction: column;
+  padding: 50px;
 }
+
+.redes li a{
+  font-size: 15px;
+}
+
+.container-form h2{
+  margin: 60px;
+}
+
+.part6-footer {
+  display: none;
+}
+
+}
+
 
 /* RESPONSIVE DESIGN MOBILE*/
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  header {
-    display: none;
-  }
+@media  screen and (min-width:320px) and (max-width:480px) {
+header{
+  display:none;
 }
 
-  
+.part1-presentation {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 50px; 
+  padding-top: 80px; 
+  }
 
-/*END*/
+
+.part1{
+width: 100%;
+/* margin-right: 50px; */
+} 
+
+.part1 h2 {
+  font-size: 30px;
+}
+
+.part1 h1 {
+  font-size: 50px;
+}
+
+.imagepart1{
+/* margin-left: 100px; */
+}
+
+#world{
+width: 150px;
+height: 150px; 
+}
+
+.content-contact{
+flex-direction: column;
+padding: 50px; 
+align-items: center;
+}
+
+.redes li a{
+font-size: 10px; 
+} 
+
+.icon{
+  font-size: 18px;
+}
+
+
+.container-form h2{
+/* margin: 60px; */
+}
+
+.form{
+  display: flex;
+  flex-direction: column; 
+}
+
+.name-form{
+  flex-direction: column;
+}
+
+.part6-footer {
+display: none;
+}
+
+/* .part1-presentation{
+  flex-direction: column;
+}
+
+.part1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 60px
+}
+
+.imagepart1{
+  margin-right: 85px;
+  padding-bottom: 30px;
+}
+
+.part2 h2{
+  text-align: center;
+}
+
+.content-contact{
+  flex-direction: column;
+}
+
+.form{
+  width: 350px;
+}
+
+.container-form{
+  justify-content: center;
+}
+
+.name-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.container-email{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-right: 8px;
+}
+
+#email{
+margin-top: 10px;
+width: 80%;
+}
+
+#message{
+margin-top: 10px;
+width: 80%;
+}
+
+.container-message{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-right: 8px;
+}
+
+.container-buttom{
+display: flex;
+flex-direction: column;
+align-items: center;
+} */
+}
 
 
